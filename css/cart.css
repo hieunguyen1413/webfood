@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:font_s;
+    src:url('../font/Montserrat-Medium.ttf') format('truetype'),
+    url('../fonts/Captureit.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Captureit.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+   }
+.center{
+    font-family: font_s;
+}
+.table1 th{
+    text-align: center;
+}
+.table1 td{
+    text-align: center;
+}
+.prod{
+    width: 10%;
+}.table1 .na{
+    padding-top: 45px;
+}
+.table1 thead tr{
+    background:forestgreen;
+    color: white;
+}
+.option .cont{
+    border: forestgreen solid 1px;
+    margin: 20px;
+}
+.option .cont a{
+    padding: 20px;
+    line-height: 42px;
+    padding: 0 20px;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #5a4a3b;
+    text-decoration: none;
+}
+.option .cont:hover{
+    background: forestgreen;
+}
+.option .cont a:hover{
+    color: white;
+}
+.coupon{
+    background: #d9d5d2;    
+    padding: 20px;
+    font-size: 24px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.coupon input{
+    border: 2px solid #fff;
+    width: 50%;
+}
+.coupon button{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 80px;
+    margin-left: 30px;
+    background:#5a4a3b;
+    color: white;
+    border: none;
+}
+.coupon button:hover{
+    background: forestgreen;
+    color: white;
+}
+.table2{
+    /* overflow: hidden; */
+    margin: 50px 0px;
+    border: forestgreen solid 1px;
+}
+.table2 thead tr{
+    background: forestgreen;
+    color: white;
+}
+.table2 thead tr th{
+    padding: 20px;
+}
+.table2 tbody select{
+    padding:5px;
+    width: 99%;
+}
+.table2 tbody input{
+    padding:3px;
+    width: 98%;
+}
+.table2 tbody button{
+    padding:5px;
+}
+.table2 tbody button:hover{
+    padding:7px;    
+    background: forestgreen;
+    color: white;
+    border: none;
+    overflow: hidden;
+}
+.table2 tbody td{
+    border: none !important;
+}
+.fas{
+    color:#4a4642;
+}
+.fas:hover{
+    color: forestgreen;
+}
+.title{
+    margin-top: -10px;
+    position: relative;
+    height: 100px;
+    background: green;
+    color: white;
+    padding: 16px 30px;
+    width: 76%;
+    margin: 0 auto;
+}
+.first-page{
+    font-size: 30px;
+}
+.title span{
+    color: #ccc;
+}
+#title{
+        margin-top: -10px;
+    position: relative;
+}
+.respon-menu i{
+    color: white;
+}

@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.center{
+	width: 76%;
+	margin: 0 auto;
+	font-family: 'Tahoma', sans-serif;
+	/*height: 1000px;*/
+}
+.title{
+	height: 100px;
+	background: green;
+	color: white;
+	padding: 16px 30px;
+	width: 76%;
+	margin: 0 auto;
+}
+.title .home a{
+	text-decoration: none;
+	color: #ccc;
+}
+.center .container{
+	padding-top: 50px;
+	width: 97%;
+	margin: 0 auto;
+	background-color: white;
+	padding-bottom: 50px;
+}
+.center .container img{
+	margin-bottom: 50px;
+    margin-top: 24px;
+    box-shadow: -10px 20px;
+}
+.exp{
+	padding: 150px 25px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: rgba(153, 153, 102, 1);
+	overflow: hidden;
+	background-image: url("file:///C:/Users/HoangSon/Downloads/Food_store/img/farming-bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.exp .row{
+	width: 70%;
+	margin: 0 auto;
+}
+.exp .row .border1{
+	border-bottom: 2px solid #ccc;
+}
+.exp .row .exp-img{
+	margin-top: 90px;
+    margin-right: -60px;
+    margin-left: 50px;
+}
+@font-face{
+	src:url('../Font/FrenteH1-Regular.otf');
+	font-family: Frente H1;
+}
+@font-face{
+	src:url('../Font/Montserrat-Italic.ttf');
+	font-family: Montserrat;
+}
+
+.container .title-about{
+	font-family: 'Frente H1', sans-serif;
+	font-size: 70px;	
+}
+.container .title-content{
+	font-family: 'Montserrat', sans-serif;	
+}
+.container .exp-text span{
+	color: white;
+}
+.why-choose-we{
+	width: 85%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.our-farmers{
+	margin-top: 50px;
+	font-family: 'Tahoma', sans-serif;
+}
+.our-farmers .profile-card img{
+	border-radius: 50%;
+}
+.title-farmer{
+	margin: 0 auto;
+	width: 300px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+.title-farmer img{
+	margin-left: 90px;
+}
+.profile-card .item{
+	width: 70%;
+	margin: 0 auto;
+}
+.our-farm{
+	background-image: url("file:///C:/Users/HoangSon/Downloads/Food_store/img/our-farmer.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+/*.profile-card .item .img-farmer{
+	background-image: url("file:///C:/Users/HoangSon/Downloads/Food_store/img/Vector Smart Object.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 276px;
+	width: 285px;
+}*/
+.profile-card{
+	text-align: center;
+}
+.icon-farmer{
+	margin: 24px 0;
+}
+.icon-farmer i{
+	border-radius: 80%;
+	padding: 10px;
+	border: 1px solid white;
+	font-size: 14px;
+	width: 35px;
+	color: white;
+}
+.icon-farmer i:hover{
+	background-color: white;
+	color: green;
+}

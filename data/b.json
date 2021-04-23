@@ -1,0 +1,28 @@
+[
+   {
+   	"name":"ABCC",
+   	"email":"abc@gamil.com",
+   	"phone":"012874387482",
+   	"password":"1234"
+   },
+   {
+   	"name":"DDDD",
+   	"email":"bcd@gamil.com",
+   	"phone":"012874387482",
+   	"password":"2341"
+   },
+   {
+   	"name":"CCCCC",
+   	"email":"efg@gamil.com",
+   	"phone":"012874387482",
+   	"password":"2312"
+   },
+   {
+   	"name":"GGGGG",
+   	"email":"hty@gamil.com",
+   	"phone":"012874387482",
+   	"password":"1112"
+   }
+
+
+]

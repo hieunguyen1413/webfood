@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Tahoma', sans-serif;
+}
+.center{
+	width: 76%;
+	margin: 0 auto;
+	font-family: 'Tahoma', sans-serif;
+}
+.title{
+	height: 100px;
+	background: green;
+	color: white;
+	padding: 16px 30px;
+	width: 76%;
+	margin: 0 auto;
+}
+.first-page{
+	font-size: 30px;
+}
+.title span{
+	color: #ccc;
+}
+.center .container{
+	padding-top: 50px;
+	width: 97%;
+	margin: 0 auto;
+}
+@font-face{
+	src:url('../Font/FrenteH1-Regular.otf');
+	font-family: Frente H1;
+}
+@font-face{
+	src:url('../Font/Montserrat-Italic.ttf');
+	font-family: Montserrat;
+}
+.center .container{
+    font-family: Montserrat;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.collapsible {
+  background-color: forestgreen;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.active, .collapsible:hover {
+  background-color: darkseagreen;
+}
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+.content p{
+  font-size: 13px;
+}

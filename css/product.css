@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding-left: 0;
+}
+.sp{
+    /* border: salmon solid 1px; */
+    border-radius: 10px;
+    padding: 10px;
+}
+.info{
+    text-align: center;
+}
+.info img{
+    margin-top: 20px;
+    border: seagreen solid 1px;
+    border-radius: 5px;
+}
+.search input{
+    border-radius: 5px;
+    width: 50%;
+    overflow: hidden;
+}
+.active1:focus{
+    background: salmon !important;
+}
+.pagi{
+    text-align: center;
+}
+.pagination a{
+    margin: 10px;   
+}
+.collapsible {
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;  
+    font-size: 18px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+  
+.active, .collapsible:hover {
+    background-color: forestgreen;
+}
+  
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+ }
+  
+.active:after {
+    content: "\2212";
+}
+  
+.content{
+    padding:0px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    margin-bottom: 40px;
+}
+.content ul li{
+    list-style: none;
+    line-height: 40px;
+    border-bottom: forestgreen solid 1px; 
+}
+.content ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color:forestgreen ;
+}
+.product button{
+    background: white;
+    color: forestgreen;
+    border-radius: 20px;
+    border: forestgreen solid 1px;   
+}
+.product button:hover{
+    background: forestgreen;
+    color: white;
+    border-radius: 20px;
+    border: forestgreen solid 1px;   
+}
+@font-face {
+    font-family:font_s;
+    src:url('../font/Montserrat-Medium.ttf') format('truetype'),
+    url('../fonts/Captureit.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Captureit.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+   }
+.center{
+    font-family: font_s;
+    margin-top: 50px;
+}

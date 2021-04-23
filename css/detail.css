@@ -1,0 +1,200 @@
+.det{
+    text-align: center;
+}
+.det img{
+    border: seagreen solid 1px;
+    border-radius: 5px;
+}
+.inf{
+    /* border: salmon solid 1px; */
+    border-radius: 10px;
+}
+.na{
+    border-bottom: forestgreen solid 1px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+.av{
+    color: forestgreen;
+}
+.add .butt{
+    padding: 5px 20px;
+    background: rgb(101, 214, 101);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border:forestgreen solid 1px;
+}
+.add .heart{
+    background: rgb(101, 214, 101);
+    border:forestgreen solid 1px;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+}
+.add{
+    margin: 10px;
+    text-align: center;
+    width: 100%;
+}
+.ic{
+    margin-right: 5px;
+}
+.crs{
+    margin-top: 20px;
+}
+@-webkit-keyframes fadeEffect{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+  
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.tab{
+    overflow: hidden;
+    border-bottom: forestgreen solid 5px;
+}
+.tab button{
+    transition: 0.3s;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    padding: 18px 36px;
+    border-radius: 15px 15px 0px 0px;
+    outline: none;
+}
+.tabcontent{
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+/* Change background color of buttons on hover */
+.tab button:hover{
+    background-color: #ddd;
+}
+  
+  /* Create an active/current tablink class */
+.tab button.active {
+    border: olivedrab solid 1px;
+    
+}
+.container{
+    padding-bottom: 10px;
+}
+.av1{
+    color: forestgreen;
+}
+@font-face {
+    font-family:font_s;
+    src:url('../font/Montserrat-Medium.ttf') format('truetype'),
+    url('../fonts/Captureit.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Captureit.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+   }
+.center{
+    font-family: font_s;
+}
+.tabcontent input{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    background: #f1f1f1;
+}
+.tabcontent textarea{
+    width: 100%;
+    font-size: 14px;
+    background: #f1f1f1;
+    border: none;
+}
+.rev{
+    margin-bottom: 40px;
+}
+.rev button{
+    height: 56px;
+    border: 1px solid #549843;
+    background: #549843;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px 25px;
+    outline: none;
+}
+.rev button:hover{
+    background: #fff;
+    color: #549843;
+}
+.info{
+    text-align: center;
+}
+.info img{
+    margin-top: 20px;
+    border: seagreen solid 1px;
+    border-radius: 5px;
+}
+.info button{
+    background: white;
+    color: forestgreen;
+    border-radius: 20px;
+    border: forestgreen solid 1px;
+}
+.info button:hover{
+    background: forestgreen;
+    color: white;
+    border-radius: 20px;
+    border: forestgreen solid 1px;   
+}
+.tab1{
+    margin-bottom: 100px;
+}
+.fab{
+    color:#4a4642;
+}
+.fab:hover{
+    color: forestgreen;
+}
+.list-img{
+    padding: 40px;
+    margin-bottom: 100px;
+}
+.qty span{
+    width: 30%;
+    float: left;
+}
+.qty input{
+    width: 35%;
+    float: left;
+}
+.tt{
+    width: 100%;
+    margin-top: 100px;
+}
+.title{
+    margin-top: -10px;
+    position: relative;
+    height: 100px;
+    background: green;
+    color: white;
+    padding: 16px 30px;
+    width: 76%;
+    margin: 0 auto;
+}
+.first-page{
+    font-size: 30px;
+}
+.title span{
+    color: #ccc;
+}
+#title{
+        margin-top: -10px;
+    position: relative;
+}
+.respon-menu i{
+    color: white;
+}

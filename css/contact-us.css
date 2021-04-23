@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Tahoma', sans-serif;
+}
+.center{
+	width: 76%;
+	margin: 0 auto;
+	font-family: 'Tahoma', sans-serif;
+}
+.title{
+	height: 100px;
+	background: green;
+	color: white;
+	padding: 16px 30px;
+	width: 76%;
+	margin: 0 auto;
+}
+.first-page{
+	font-size: 30px;
+}
+.title span{
+	color: #ccc;
+}
+.center .container{
+	padding-top: 50px;
+	width: 97%;
+	margin: 0 auto;
+	background-color: white;
+	padding-bottom: 50px;
+}
+@font-face{
+	src:url('../Font/FrenteH1-Regular.otf');
+	font-family: Frente H1;
+}
+@font-face{
+	src:url('../Font/Montserrat-Italic.ttf');
+	font-family: Montserrat;
+}
+.center .contact .content{
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.center .logo{
+	margin: 0 auto;
+	width: 200px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.center .content .inner-part{
+	text-align: center;
+}
+.center .content .inner-part h3{
+	font-family: 'Frente H1', sans-serif;
+	font-size: 60px;
+	color: white;
+}
+.center .content .inner-part .box{
+	background-image: url('../img/Vector Smart Object.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 300px;
+}
+.address-box,.phone-box,.email-box{
+	margin-top: 50px;
+}
+.center .content .icon-part i{
+	font-size: 50px;
+}
+.center .content .tit a,p{
+	text-decoration: none;
+	color: white !important;
+}
+.center .contact .content .title-contact{
+	font-family: 'Frente H1', sans-serif;
+	font-size: 50px;
+}
+.container-form{
+	margin-top: 50px;
+	padding-top: 50px;
+	overflow: hidden;
+}
+.container-form input{
+	padding: 7px;
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 407px;
+}
+.container-form input[type=submit]{
+	font-weight: bold;
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+}
+.container-form input[type=submit]:hover{
+	background: forestgreen;
+}
+.container-form .form{
+	background-image: url(../img/artwork-436791.jpg);
+	text-align: center;
+	overflow: hidden;
+}
+.container-form .map{
+	padding: 0;
+	overflow: hidden;
+
+}
+#comment{
+	padding: 7px;
+    padding-left: 20px;
+    margin-top: 10px;
+    width: 407px;
+}
+.title-contact1{
+	font-family: 'Frente H1', sans-serif;
+	font-size: 50px;
+	padding-bottom: 10px;
+	margin-top: 50px;
+}
+.title-contact1 span{
+	font-family: 'Frente H1', sans-serif;
+}
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-size: 14px;
+    padding: 8px;
+    background: #90c31c;
+    z-index: 999;
+    border: none;
+}
+.scrollup i {
+    font-size: 20px;
+    color: #5a4a3b;
+    margin-left: -2px;
+}

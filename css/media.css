@@ -1,0 +1,77 @@
+@media (max-width: 850px){
+	.tel-and-email {
+		display: none;
+	}
+}
+@media (max-width: 464px){
+	.lpart{
+		display: none;
+	}
+	.top-header{
+		display: flex;
+	}
+	.top-header .rpart{
+		flex: auto;
+	}
+	.respon-menu{
+		display: block;
+	}
+	.container.navbar-total{
+		position: absolute;
+	    top: 0;
+	    background-color: #333;
+	    width: 100%;
+	}
+	.bottom-header{
+		position: relative;
+		display: none;
+	}
+	.title{
+		margin-top: 39px !important;
+	}
+	.title.first-page{
+		font-size: 14px;
+	}
+	.form-newsletter{
+
+	}
+}
+@media(max-width: 320px){
+	.form-newsletter{
+		width: 238px;
+	}
+	.form-newsletter input{
+    padding: 8px 9px;
+    width: 141px !important;
+	}
+    .form-newsletter button{
+        font-size: 12px;
+    width: 79px;
+	}
+}
+@media(max-width: 375px){
+	.form-newsletter{
+		width: 238px;
+	}
+	.form-newsletter input{
+    padding: 8px 9px;
+    width: 141px !important;
+	}
+    .form-newsletter button{
+        font-size: 12px;
+    width: 79px;
+	}
+}
+@media(max-width: 425px){
+	.form-newsletter{
+		width: 238px;
+	}
+	.form-newsletter input{
+    padding: 8px 9px;
+    width: 141px !important;
+	}
+    .form-newsletter button{
+        font-size: 12px;
+    width: 79px;
+	}
+}

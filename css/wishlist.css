@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:font_s;
+    src:url('../font/Montserrat-Medium.ttf') format('truetype'),
+    url('../fonts/Captureit.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Captureit.woff') format('woff');
+    font-weight:normal;
+    font-style:normal;
+   }
+.center{
+    font-family: font_s;
+        margin-top: 45px;
+}
+.table1 th{
+    text-align: center;
+}
+.table1 td{
+    text-align: center !important;
+}
+.prod{
+    width: 10%;
+}.table1 .na{
+    padding-top: 45px;
+}
+.table1 thead tr{
+    background:forestgreen;
+    color: white;
+}
+.fas{
+    color:#4a4642;
+}
+.fas:hover{
+    color: forestgreen;
+}
+.total{
+    color:#4a4642;
+}
+.total:hover{
+    color: forestgreen;
+}
+.title{
+    margin-top: -10px;
+    position: relative;
+    height: 100px;
+    background: green;
+    color: white;
+    padding: 16px 30px;
+    width: 76%;
+    margin: 0 auto;
+}
+.first-page{
+    font-size: 30px;
+}
+.title span{
+    color: #ccc;
+}
+#title{
+        margin-top: -10px;
+    position: relative;
+}
+.respon-menu i{
+    color: white;
+}

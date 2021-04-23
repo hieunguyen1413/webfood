@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Tahoma', sans-serif;
+}
+.center{
+	width: 76%;
+	margin: 0 auto;
+	font-family: 'Tahoma', sans-serif;
+}
+.title{
+	height: 100px;
+	background: green;
+	color: white;
+	padding: 16px 30px;
+	width: 76%;
+	margin: 0 auto;
+}
+.first-page{
+	font-size: 30px;
+}
+.title span{
+	color: #ccc;
+}
+.center .container{
+	padding-top: 50px;
+	width: 97%;
+	margin: 0 auto;
+	background-color: white;
+	padding-bottom: 50px;
+}
+@font-face{
+	src:url('../Font/FrenteH1-Regular.otf');
+	font-family: Frente H1;
+}
+@font-face{
+	src:url('../Font/Montserrat-Italic.ttf');
+	font-family: Montserrat;
+}
+.center .main-content{
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: center;
+}
+.center .logo{
+	margin: 0 auto;
+	width: 200px;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+.center .main-content .text1{
+	font-size: 340px;
+	font-family: Frente H1;
+	color: #66ff57;
+}
+.center .main-content .text1 span{
+	color: forestgreen;
+	font-size: 340px;
+	font-family: Frente H1;
+}
+.center .main-content .text2{
+	font-size: 75px;
+	font-family: Frente H1;
+}
+.center .main-content .text2 span{
+	color: forestgreen;
+	font-size: 75px;
+	font-family: Frente H1;
+}
+.center .main-content .text3{
+	font-size: 15px;
+	font-family: Montserrat;
+}
+.center .main-content button{
+	width: 270px;
+	height: 40px;
+	background-color: #66ff57;
+	border: none;
+	color: white;
+	margin-top: 50px;
+	text-align: center;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-size: 14px;
+    padding: 8px;
+    background: #90c31c;
+    z-index: 999;
+    border: none;
+}
+.scrollup i {
+    font-size: 20px;
+    color: #5a4a3b;
+    margin-left: -2px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+.modal-header .logo{
+  width: 223px;
+  margin: 0 auto;
+}
+.modal-body {
+  padding: 2px 16px;
+}
+.modal-body .title-news{
+  font-family: 'Frente H1',sans-serif;
+  font-size: 70px !important;
+  text-align: center;
+}
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+.modal-footer .mybtn{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.modal-body .enter-email{
+  text-align: center;
+  width: 77%;
+  margin: 0 auto;
+  font-weight: normal;
+}
+.modal-body .enter-email p{
+  font-family: 'Montserrat',sans-serif;
+}
+.modal-body input[type="email"] {
+    background: #f1f1f1;
+    height: 52px;
+    width: 100%;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 0 22px;
+    color: #898785;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 17px;
+    border: none;
+    box-shadow: none;
+}
